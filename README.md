@@ -16,7 +16,7 @@
 #### Input cloud feedback parameters 
 Individual cloud feedbacks from Table 1 of Sherwood et al. (2020):
 
-| Individual cloud feedbacks | Value |
+| Individual cloud feedbacks | Value (<img src="https://render.githubusercontent.com/render/math?math=Wm^{-2}K^{-1}">)|
 | ------------- |:-------------:|
 | High-cloud altitude | N(+0.20, 0.10) |
 | Tropical marine low cloud | N(+0.25, 0.16) |
