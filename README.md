@@ -7,6 +7,9 @@
 * The forcing data (`.csv`) under `data` directory and python scripts under `scripts` direcotry (except `reproduce_myers2021.py`) are from [Sherwood et al. (2020)](https://doi.org/10.1029/2019RG000678) and public available at: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3945276.svg)](https://doi.org/10.5281/zenodo.3945276)
 
 #### How to reproduce
+Run the following command:
 ```bash
 ./run_ecs.sh
 ```
+Or see the reproduced figure in `reproduce_myers2021_fig5.ipynb`.
+
