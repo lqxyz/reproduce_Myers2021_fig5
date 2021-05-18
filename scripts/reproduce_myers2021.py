@@ -36,7 +36,7 @@ if __name__ == '__main__':
   if not os.path.exists(fig_dir):
     os.makedirs(fig_dir)
 
-  out_dt = 'figs' #'./data'
+  out_dt = './data'
   inpath = os.getcwd()
 
   fig, ax = plot.subplots(ncols=1, aspect=1.3, axwidth=5)
