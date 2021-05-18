@@ -67,7 +67,7 @@ if 'sherwood' in ref_paper:
 else: # 'myers' in sys.argv[4].lower()
   # total cloud feedback, 0.±0.33 (Myers et al., 2021)
   l_cld_mu = 0.27
-  l_cld_sd = 0.27
+  l_cld_sd = 0.25
 
 out_dir = os.path.join(outpath, ref_paper, calc_id)
 if not os.path.exists(out_dir):
