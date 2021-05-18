@@ -1,5 +1,4 @@
 #!/bin/bash
-# Qun Liu, Univ of Exeter
 
 calc="ULI_MEDIUM_SAMPLE"
 inpath='./data'
