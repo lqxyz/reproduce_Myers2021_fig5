@@ -15,11 +15,11 @@ do
     then
         echo "$log_fn already present!"
     else
-        python -u ecs-baseline-ec2.py $calc $outpath $inpath $ref_paper &> $log_fn
+        python -u ./scripts/ecs-baseline-ec2.py $calc $outpath $inpath $ref_paper &> $log_fn
         ./makelinks.sh $outpath/$ref_paper
     fi
     # ./makelinks.sh $outpath/$ref_paper
 done
 
-python -u reproduce_myers2021.py
+python -u ./scripts/reproduce_myers2021.py
 
