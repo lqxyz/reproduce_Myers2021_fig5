@@ -1,4 +1,4 @@
-## Reproduce the Fig. 5 of Myers et al. (2021) on $N$ature Climate Change
+## Reproduce the Fig. 5 of Myers et al. (2021) on Nature Climate Change
 
 [Myers et al. (2021)](https://doi.org/10.1038/s41558-021-01039-0): Observational constraints on low cloud feedback reduce uncertainty of climate sensitivity
 
@@ -26,7 +26,7 @@
 
 | | Sherwood et al. (2020) | Myers et al. (2021) |
 | ------------- |:-------------:|:-------------:|
-| near-global marine low cloud feedback| N(0.37, 0.22) | N(0.19, 0.07)  |
+| Near-global marine low cloud feedback| N(0.37, 0.22) | N(0.19, 0.07)  |
 | Total cloud feedback | N(0.45, 0.33) | N(0.27, 0.25) |
 
 #### How to reproduce
