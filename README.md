@@ -24,6 +24,14 @@ Individual cloud feedbacks from Table 1 of Sherwood et al. (2020):
 | Land cloud amount | N(+0.08, 0.08) |
 | Middle-latitude marine low-cloud amount | N(+0.12, 0.12) |
 | High-latitude low-cloud optical depth | N(+0.00, 0.10) |
-| Total cloud feedback | N(+0.45,  0.33) |
+| Total cloud feedback | N(+0.45, 0.33) |
 
-The `near-global marine low cloud feedback` in Sherwood as "the sum of tropical marine low cloud amount, midlatitude marine low cloud amount and high-latitude low cloud optical depth feedbacks", so the mean and stand deviation are: $$\mu=+0.25+0.12+0.00=0.37$$ Wm$$^{-2}$$K$$^{-1}$$,
+The `near-global marine low cloud feedback` in Sherwood as "the sum of tropical marine low cloud amount, midlatitude marine low cloud amount and high-latitude low cloud optical depth feedbacks", so the mean and stand deviation are: <img src="https://render.githubusercontent.com/render/math?math=\mu=0.25+0.12+0.00=0.37 Wm^{-2}K^{-1}"> and <img src="https://render.githubusercontent.com/render/math?math=\sigma=\sqrt{0.16^2 + 0.12^2 + 0.10^2}=0.22 Wm^{-2}K^{-1}">, respectively.
+
+| | Sherwood et al. (2020) | Myers et al. (2021) |
+| ------------- |:-------------:|:-------------:|
+| near-global marine low cloud feedback| N(0.37, 0.22) | N(0.19, 0.07)  |
+| Total cloud feedback | N(+0.45, 0.33) | N(+0.27, 0.25) |
+
+
+
