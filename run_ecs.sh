@@ -20,5 +20,5 @@ do
     # ./makelinks.sh $outpath/$ref_paper
 done
 
-python -u ./scripts/reproduce_myers2021.py
+python -u ./scripts/reproduce_myers2021_fig5.py
 
