@@ -65,7 +65,7 @@ if 'sherwood' in ref_paper:
   l_cld_mu = 0.45
   l_cld_sd = 0.33
 else: # 'myers' in sys.argv[4].lower()
-  # total cloud feedback, 0.±0.33 (Myers et al., 2021)
+  # total cloud feedback, 0.27±0.25 (Myers et al., 2021)
   l_cld_mu = 0.27
   l_cld_sd = 0.25
 
