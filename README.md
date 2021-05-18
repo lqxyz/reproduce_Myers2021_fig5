@@ -4,7 +4,7 @@
 
 #### 
 #### Data and code
-* The forcing data (`.csv`) under `data` directory and python scripts under `scripts` direcotry (except `reproduce_myers2021.py`) are from [Sherwood et al. (2020)](https://doi.org/10.1029/2019RG000678) and public available at: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3945276.svg)](https://doi.org/10.5281/zenodo.3945276)
+* The forcing data (`.csv`) under [`data`](https://github.com/lqxyz/reproduce_Myers2021_fig5/tree/main/data) directory and python scripts under [`scripts`](https://github.com/lqxyz/reproduce_Myers2021_fig5/tree/main/scripts) direcotry (except `reproduce_myers2021_fig5.py`) are from [Sherwood et al. (2020)](https://doi.org/10.1029/2019RG000678) and public available at: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3945276.svg)](https://doi.org/10.5281/zenodo.3945276)
 
 #### How to reproduce
 Run the following command:
