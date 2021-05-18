@@ -1,5 +1,5 @@
 
-topdir=$(pwd)/"$1"  #figs/sherwood
+topdir=$(pwd)/"$1"  #e.g., data/sherwood
 dirs='ULI_MEDIUM_SAMPLE'
 for dir in $dirs
 do
