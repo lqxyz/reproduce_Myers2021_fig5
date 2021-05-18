@@ -9,5 +9,4 @@
 #### How to reproduce
 ```bash
 ./run_ecs.sh
-python -u ./scripts/reproduce_myers2021.py
 ```
