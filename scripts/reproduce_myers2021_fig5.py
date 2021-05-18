@@ -37,7 +37,6 @@ if __name__ == '__main__':
     os.makedirs(fig_dir)
 
   out_dt = './data'
-  inpath = os.getcwd()
 
   fig, ax = plot.subplots(ncols=1, aspect=1.3, axwidth=5)
   ax.format(xlabel='S (K)', ylabel='PDF for S $(K^{-1})$',
@@ -49,7 +48,7 @@ if __name__ == '__main__':
   ref_papers = ['sherwood', 'myers']
 
   for j, ref_paper in enumerate(ref_papers):
-    dt_dir = P(inpath, out_dt, ref_paper, calc_id)
+    dt_dir = P(out_dt, ref_paper, calc_id)
 
     dumpfile= P(dt_dir, calc_id + '.lastmean.joblib')
     print('dumpfile =', dumpfile)
