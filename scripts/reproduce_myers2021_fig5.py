@@ -38,6 +38,7 @@ if __name__ == '__main__':
 
   out_dt = './data'
 
+  plot.close()
   fig, ax = plot.subplots(ncols=1, aspect=1.3, axwidth=5)
   ax.format(xlabel='S (K)', ylabel='PDF for S $(K^{-1})$',
             xlim=[1,7], ylim=[0,1], grid=False)
