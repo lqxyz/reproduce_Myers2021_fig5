@@ -11,5 +11,5 @@ Run the following command:
 ```bash
 ./run_ecs.sh
 ```
-Or see the reproduced figure in `reproduce_myers2021_fig5.ipynb`.
+Or see the reproduced figure in [`reproduce_myers2021_fig5.ipynb`](https://github.com/lqxyz/reproduce_Myers2021_fig5/blob/main/reproduce_myers2021_fig5.ipynb). If Github can not load this notebook, you can try this [link](https://nbviewer.jupyter.org/github/lqxyz/reproduce_Myers2021_fig5/blob/main/reproduce_myers2021_fig5.ipynb) on nbviewer.
 
