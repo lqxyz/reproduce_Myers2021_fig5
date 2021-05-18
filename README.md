@@ -18,10 +18,11 @@ Individual cloud feedbacks from Table 1 of Sherwood et al. (2020):
 
 | Individual cloud feedbacks | Value |
 | ------------- |:-------------:|
-| High-cloud altitude | $N$(+0.20, 0.10) |
-| Tropical marine low cloud | $N$(+0.25, 0.16) |
-| Tropical anvil cloud area | $N$(-0.20, 0.20) |
-| Land cloud amount | $N$(+0.08, 0.08) |
-| Middle-latitude marine low-cloud amount | $N$(+0.12, 0.12) |
-| High-latitude low-cloud optical depth | $N$(+0.00, 0.10) |
-| Total cloud feedback $lambda_{clouds}$ | $N$(+0.45,  0.33) |
+| High-cloud altitude | N(+0.20, 0.10) |
+| Tropical marine low cloud | N(+0.25, 0.16) |
+| Tropical anvil cloud area | N(-0.20, 0.20) |
+| Land cloud amount | N(+0.08, 0.08) |
+| Middle-latitude marine low-cloud amount | N(+0.12, 0.12) |
+| High-latitude low-cloud optical depth | N(+0.00, 0.10) |
+| Total cloud feedback | N(+0.45,  0.33) |
+
