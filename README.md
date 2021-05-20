@@ -3,7 +3,7 @@
 [Myers et al. (2021)](https://doi.org/10.1038/s41558-021-01039-0): Observational constraints on low cloud feedback reduce uncertainty of climate sensitivity
 
 <p align="center">
- <img src="./figs/myers2021_fig5.png" width="400"/>
+ <img src="./figs/myers2021_fig5.png" width="600"/>
 </p>
 
 #### Data and code
