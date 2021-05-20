@@ -121,7 +121,7 @@ if __name__ == '__main__':
     print('ecs83 =', ecs83)
 
   fig_name = P(fig_dir, 'myers2021_fig5.png')
-  fig.savefig(fig_name, bbox_inches="tight", pad_inches=0.1, transparent=False)
+  fig.savefig(fig_name, bbox_inches="tight", pad_inches=0.1, transparent=False, dpi=200)
   #plt.savefig(fig_name.replace('.png', '.eps'), ,bbox_inches="tight", pad_inches=0.1)
 
   plot.show()
