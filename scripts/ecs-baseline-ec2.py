@@ -51,6 +51,7 @@ import datetime
 from emergent_constraints_lambda_parameters import *
 from bellouin_ringberg_stats_fix_200311_ERFaer import *
 import sys
+import os
 
 print (sys.argv[0],"RCS ID=","$Id: ecs-baseline-ec2.py,v 1.113 2020/06/04 13:24:34 hadmw Exp $")
 
