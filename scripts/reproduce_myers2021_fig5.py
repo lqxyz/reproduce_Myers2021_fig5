@@ -43,7 +43,7 @@ if __name__ == '__main__':
   ax.format(xlabel='S (K)', ylabel='PDF for S $(K^{-1})$',
             xlim=[1,7], ylim=[0,1], grid=False)
 
-  colors=['k', 'C0']
+  colors = ['k', 'C0']
   labels = ['Sherwood et al. (2020) baseline', 'Myers et al. (2021) constraints']
   calc_id = "ULI_MEDIUM_SAMPLE"
   ref_papers = ['sherwood', 'myers']
@@ -51,7 +51,7 @@ if __name__ == '__main__':
   for j, ref_paper in enumerate(ref_papers):
     dt_dir = P(out_dt, ref_paper, calc_id)
 
-    dumpfile= P(dt_dir, calc_id + '.lastmean.joblib')
+    dumpfile = P(dt_dir, calc_id + '.lastmean.joblib')
     print('dumpfile =', dumpfile)
     [transfer_unweighted_prior_pdf,transfer_weighted_prior_pdf,
       total_hist_erf_posterior,total_hist_erf_prior,ecs_pdf, posterior,
@@ -62,7 +62,7 @@ if __name__ == '__main__':
       s_process_ec_likelihood, s_hist_likelihood, s_paleo_cold_likelihood,
       s_paleo_hot_likelihood, full_s_prior_pdf] = load(dumpfile)
 
-    dumpfile=P(dt_dir, calc_id + '.lastpartial.joblib')
+    dumpfile = P(dt_dir, calc_id + '.lastpartial.joblib')
     print('dumpfile =', dumpfile)
     [toploop_index,transfer_unweighted_prior_pdf_sum,
       transfer_weighted_prior_pdf_sum,total_hist_erf_posterior_sum,
@@ -83,12 +83,12 @@ if __name__ == '__main__':
 
     # apply Gausian Kernel smoothing to posterior
     smoothed_posterior = kernel_smooth(bin_centres, posterior, bin_width)
-    linewidth=2
+    linewidth = 2
     ax.plot(bin_centres, smoothed_posterior, color, linewidth=linewidth)
     ax.fill_between(bin_centres, 0, smoothed_posterior, color=color, alpha=0.2)
 
     [p_ecs_lt_1p5, p_ecs_gt_4p5, ecs5,ecs17, ecs83, ecs95, ecs_mean, ecs_mode] =\
-      ecs_cdf(posterior,bin_boundaries,bin_width,'Loopsum Posterior')
+      ecs_cdf(posterior, bin_boundaries, bin_width, 'Loopsum Posterior')
 
     markersize=4
 
@@ -104,7 +104,7 @@ if __name__ == '__main__':
       yloc = 0.95
     else:
       yloc = 0.9
-    ax.plot([ecs17, ecs83], [yloc, yloc], color=color, linewidth=2) # label=label
+    ax.plot([ecs17, ecs83], [yloc, yloc], color=color, linewidth=linewidth) # label=label
     # ax.plot([ecs17, ecs17], [0, yloc], '--', color=color)
     # ax.plot([ecs83, ecs83], [0, yloc], '--', color=color)
     for xloc in [ecs17, ecs83]:
